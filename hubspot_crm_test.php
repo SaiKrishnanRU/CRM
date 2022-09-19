@@ -24,7 +24,5 @@ if (isset($_POST['submit'])) {
     );
 */
 
-print_r(HubSpotCrm::addCompany(companyName, domain, address, city, zip));
-print_r(addContact(name, email, companyId?, address, city, zip, ipAddress, memberId));
-
-
+print_r(HubSpotCrm::addCompany("companyName", "domain", "address", "city", "zip"));
+print_r(addContact("name", "email", "companyId", "address", "city", "zip", "ipAddress", "memberId"));
